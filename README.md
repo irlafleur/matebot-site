@@ -23,12 +23,14 @@ Le site lit `data/journal.csv` et calcule les totaux (heures d'impression, filam
 | cout_cad | coût en $ CAD (avant taxes) |
 | heures_travail | heures d'assemblage / travail |
 | note | texte libre (mettre entre guillemets s'il contient une virgule) |
+| couleur | couleur du filament (gris, blanc…) |
+| imprimante | ex. `Anycubic Kobra S1`, `Sovol SV06 ACE` (totaux par imprimante sur le site) |
 
 Laisse vide ce qui ne s'applique pas. Exemples :
 
 ```
-2026-11-07,impression,Doigt index,2.5,18,PETG,,,
-2026-11-08,assemblage,Montage des servos,,,,,1.5,
+2026-11-07,impression,Doigt index,2.5,18,PETG,,,,blanc,Sovol SV06 ACE
+2026-11-08,assemblage,Montage des servos,,,,,1.5,,,
 ```
 
 Chaque date distincte devient un « Jour » dans la section Journal.
