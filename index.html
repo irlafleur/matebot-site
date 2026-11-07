@@ -1,21 +1,21 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MateBot — Journal de construction</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MateBot — Build log</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
 <link rel="stylesheet" href="style.css"></head><body>
-<header><h1>🤖 Mate<span>Bot</span></h1><p>Un robot humanoïde domestique construit à la main, une pièce à la fois.</p>
-<a class="yt" href="https://www.youtube.com/@MyMateBot" target="_blank">▶ Suivre sur YouTube @MyMateBot</a></header>
+<header><h1>🤖 Mate<span>Bot</span></h1><p>A household humanoid robot, built by hand, one part at a time.</p>
+<a class="yt" href="https://www.youtube.com/@MyMateBot" target="_blank">▶ Follow on YouTube @MyMateBot</a></header>
 <main>
 <section class="cards">
-<div class="card"><b id="t-print">–</b><span>heures d'impression</span></div>
-<div class="card"><b id="t-fil">–</b><span>kg de filament</span></div>
-<div class="card"><b id="t-cost">–</b><span>dépenses (CAD)</span></div>
-<div class="card"><b id="t-work">–</b><span>heures de travail</span></div>
+<div class="card"><b id="t-print">–</b><span>print hours</span></div>
+<div class="card"><b id="t-fil">–</b><span>kg of filament</span></div>
+<div class="card"><b id="t-cost">–</b><span>spent (CAD)</span></div>
+<div class="card"><b id="t-work">–</b><span>work hours</span></div>
 </section>
-<section class="charts"><div><h2>Dépenses cumulées</h2><canvas id="c-cost"></canvas></div>
-<div><h2>Répartition par type</h2><canvas id="c-type"></canvas></div></section>
-<section><h2>Par imprimante</h2><div class="charts"><div class="tw"><table id="tprint"><thead><tr><th>Imprimante</th><th>Impressions</th><th>Heures</th><th>Filament (g)</th></tr></thead><tbody></tbody></table></div><div><canvas id="c-printer"></canvas></div></div></section>
-<section><h2>Outils utilisés</h2><ul class="tools"><li>Petite pince coupante</li><li>Ébavureur</li><li>Dremel à batterie</li></ul></section>
-<section><h2>Journal</h2><div id="days"></div></section>
-<section><h2>Toutes les entrées</h2><div class="tw"><table id="tbl"><thead><tr><th>Date</th><th>Type</th><th>Pièce</th><th>h impr.</th><th>Filament (g)</th><th>Matériau</th><th>Couleur</th><th>Imprimante</th><th>Coût $</th><th>h travail</th><th>Note</th></tr></thead><tbody></tbody></table></div></section>
-</main><footer>Données : <a href="data/journal.csv">data/journal.csv</a></footer>
+<section class="charts"><div><h2>Cumulative spending</h2><canvas id="c-cost"></canvas></div>
+<div><h2>Breakdown by type</h2><canvas id="c-type"></canvas></div></section>
+<section><h2>By printer</h2><div class="charts"><div class="tw"><table id="tprint"><thead><tr><th>Printer</th><th>Prints</th><th>Hours</th><th>Filament (g)</th></tr></thead><tbody></tbody></table></div><div><canvas id="c-printer"></canvas></div></div></section>
+<section><h2>Tools used</h2><ul class="tools"><li>Small flush cutters</li><li>Deburring tool</li><li>Cordless Dremel</li></ul></section>
+<section><h2>Daily log</h2><div id="days"></div></section>
+<section><h2>All entries</h2><div class="tw"><table id="tbl"><thead><tr><th>Date</th><th>Type</th><th>Part</th><th>Print h</th><th>Filament (g)</th><th>Material</th><th>Colour</th><th>Printer</th><th>Cost $</th><th>Work h</th><th>Note</th></tr></thead><tbody></tbody></table></div></section>
+</main><footer>Data: <a href="data/journal.csv">data/journal.csv</a></footer>
 <script src="app.js"></script></body></html>

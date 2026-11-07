@@ -1,36 +1,17 @@
-# MateBot — site et journal de construction
+# MateBot — build tracker
 
-Site public : https://irlafleur.github.io/matebot-site/
+Public site: https://irlafleur.github.io/matebot-site/
 
-Le site lit `data/journal.csv` et calcule les totaux (heures d'impression, filament, dépenses, heures de travail).
+Tracks print hours, filament used, spending and assembly work hours for MateBot, a 3D-printed household humanoid robot (YouTube: [@MyMateBot](https://www.youtube.com/@MyMateBot)).
 
-## Ajouter une ligne
+## Adding an entry
 
-**Sur GitHub (web) :** ouvre `data/journal.csv`, clique sur le crayon ✏️, ajoute une ligne à la fin, puis « Commit changes ». Le site se met à jour en 1 à 2 minutes.
+Add one line to `data/journal.csv`. Columns:
 
-**En local :** modifie le fichier, puis `git commit -am "journal" && git push`.
+`date,type,piece,heures_impression,filament_g,materiau,cout_cad,heures_travail,note,couleur,imprimante`
 
-## Colonnes
+- `type`: `print`, `purchase` or `assembly`
+- `heures_impression`: print hours (decimal), `filament_g`: grams, `cout_cad`: cost in CAD, `heures_travail`: work hours
+- `couleur`: colour (e.g. `grey`, `white`), `imprimante`: printer name
 
-| Colonne | Description |
-|---|---|
-| date | AAAA-MM-JJ |
-| type | `impression`, `achat` ou `assemblage` |
-| piece | nom de la pièce ou de l'article |
-| heures_impression | heures d'impression (ex. 3.5) |
-| filament_g | grammes de filament |
-| materiau | PETG, TPU… |
-| cout_cad | coût en $ CAD (avant taxes) |
-| heures_travail | heures d'assemblage / travail |
-| note | texte libre (mettre entre guillemets s'il contient une virgule) |
-| couleur | couleur du filament (gris, blanc…) |
-| imprimante | ex. `Anycubic Kobra S1`, `Sovol SV06 ACE` (totaux par imprimante sur le site) |
-
-Laisse vide ce qui ne s'applique pas. Exemples :
-
-```
-2026-11-07,impression,Doigt index,2.5,18,PETG,,,,blanc,Sovol SV06 ACE
-2026-11-08,assemblage,Montage des servos,,,,,1.5,,,
-```
-
-Chaque date distincte devient un « Jour » dans la section Journal.
+Leave unused fields empty. Commit and push; GitHub Pages updates in a minute or two.
