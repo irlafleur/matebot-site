@@ -6,5 +6,10 @@ date,type,piece,heures_impression,filament_g,materiau,cout_cad,heures_travail,no
 2026-11-03,achat,Inserts thermiques QSJ M3/M4 + boulons,,,,19.28,,Amazon.ca,,
 2026-11-03,achat,Kit de tiges 2 mm,,,,27.75,,Amazon.ca - axes des doigts,,
 2026-11-03,achat,Manchons à sertir 1 mm,,,,12.99,,Amazon.ca - attache des tendons,,
+2026-11-03,impression,Amazing Hand - base_plate (01) - ÉCHEC,0.57,5.2,PETG,,,Arrêtée par moi après 34 min (estimé 15h29),gris,Anycubic Kobra S1
+2026-11-03,impression,Amazing Hand - base_plate (01) - ÉCHEC,0.60,4.3,PETG,,,Arrêtée par moi après 36 min (estimé 15h33),gris,Anycubic Kobra S1
 2026-11-04,achat,Servos Feetech STS3215 12V 30 kg·cm (paquet de 6),,,,180.99,,Amazon.ca RCmall - avant taxes,,
 2026-11-04,impression,Amazing Hand - R-Wrist_Interface_plate (03),7.15,106,PETG,,,"estimé 6h36, 524 couches, 0,2 mm",gris,Anycubic Kobra S1
+2026-11-04,impression,Amazing Hand - L-Palm_Shell_plate (02),6.89,98.5,PETG,,,"estimé 6h19, 515 couches, 0,2 mm",gris,Anycubic Kobra S1
+2026-11-05,impression,Amazing Hand - R-Hand_Plate_plate (01),4.67,66.3,PETG,,,"estimé 4h28, 140 couches, 0,2 mm",gris,Anycubic Kobra S1
+2026-11-06,assemblage,Nettoyage des pièces et assemblage,,,,,1,Environ 1 h de travail,,
