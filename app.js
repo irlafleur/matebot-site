@@ -23,5 +23,5 @@ const pt=document.querySelector('#tprint tbody');Object.entries(P).forEach(([k,v
 new Chart('c-printer',{type:'bar',data:{labels:Object.keys(P),datasets:[{label:'Hours',backgroundColor:'#4c8dff',data:Object.values(P).map(v=>+v.h.toFixed(2)),yAxisID:'y'},{label:'Filament (g)',backgroundColor:'#2fd4a7',data:Object.values(P).map(v=>v.g),yAxisID:'y1'}]},options:{scales:{y:{position:'left'},y1:{position:'right',grid:{drawOnChartArea:false}}}}});
 const D=document.getElementById('days');const yt='https://www.youtube.com/@MyMateBot';
 dates.forEach((d,i)=>{const it=e.filter(x=>x.date==d);const div=document.createElement('div');div.className='day';
-div.innerHTML=`<h3>Day ${i+1} — ${d}</h3><ul>${it.map(x=>`<li>${x.type}: ${x.piece.replace(/</g,'&lt;')}</li>`).join('')}</ul><a href="${yt}" target="_blank">▶ Video on @MyMateBot</a>`;D.appendChild(div)});
+div.innerHTML=`<h3>Day ${i+1} — ${d}</h3><ul>${it.map(x=>`<li>${x.type=="milestone"?"<b>⭐ "+x.piece.replace(/</g,"&lt;")+"</b>":x.type+": "+x.piece.replace(/</g,"&lt;")}</li>`).join('')}</ul><a href="${yt}" target="_blank">▶ Video on @MyMateBot</a>`;D.appendChild(div)});
 });
