@@ -1,23 +1,23 @@
-date,type,piece,heures_impression,filament_g,materiau,cout_cad,heures_travail,note,couleur,imprimante
-2026-11-03,purchase,Waveshare servo driver board,,,,16.99,,Amazon.ca - before tax,,
-2026-11-03,purchase,HERCULES 100 lb braided line,,,,16.99,,Amazon.ca - tendons,,
-2026-11-03,purchase,"PTFE tube 2x4 mm, 5 m",,,,16.49,,Amazon.ca - tendon sleeves,,
-2026-11-03,purchase,M2/M2.5 screw kit,,,,26.74,,Amazon.ca,,
-2026-11-03,purchase,QSJ M3/M4 heat-set inserts + bolts,,,,19.28,,Amazon.ca,,
-2026-11-03,purchase,2 mm dowel pin kit,,,,27.75,,Amazon.ca - finger pins,,
-2026-11-03,purchase,1 mm crimp sleeves,,,,12.99,,Amazon.ca - tendon anchors,,
-2026-11-03,print,Amazing Hand - base_plate (01) - FAILED,0.57,5.2,PETG,,,Stopped by me after 34 min (est. 15h29),grey,Anycubic Kobra S1
-2026-11-03,print,Amazing Hand - base_plate (01) - FAILED,0.60,4.3,PETG,,,Stopped by me after 36 min (est. 15h33),grey,Anycubic Kobra S1
-2026-11-03,milestone,"Hand design chosen: tendon-driven Amazing Hand (4 fingers, 8 STS3215 servos in the forearm)",,,,,,,,
-2026-11-04,purchase,Feetech STS3215 12V 30 kg·cm servos (6-pack),,,,180.99,,Amazon.ca RCmall - before tax,,
-2026-11-04,print,Amazing Hand - R-Wrist_Interface_plate (03),7.15,106,PETG,,,"est. 6h36, 524 layers, 0.2 mm",grey,Anycubic Kobra S1
-2026-11-04,print,Amazing Hand - L-Palm_Shell_plate (02),6.89,98.5,PETG,,,"est. 6h19, 515 layers, 0.2 mm",grey,Anycubic Kobra S1
-2026-11-04,print,Amazing Hand - base,11.48,207.5,PETG,,,"68.02 m filament (~3.05 g/m), est. 9h40, 0.2 mm",white,Sovol SV06 ACE
-2026-11-04,milestone,"Robot plan set: InMoov as a temporary base, custom shoulder and elbow, wheeled base first",,,,,,,,
-2026-11-04,milestone,Build tracker website launched,,,,,,,,
-2026-11-05,print,Amazing Hand - R-Hand_Plate_plate (01),4.67,66.3,PETG,,,"est. 4h28, 140 layers, 0.2 mm",grey,Anycubic Kobra S1
-2026-11-06,assembly,Part cleanup and assembly,,,,,1,About 1 h of work,,
-2026-11-07,assembly,Build work (parts list and design),,,,,1,About 1 h of work,,
-2026-11-07,purchase,Vernier caliper,,,,14,,Measuring tool,,
-2026-11-07,milestone,"Tendon hand assembly guide, servo spec check and explainer animation",,,,,,,,
-2026-11-07,milestone,All printable files published on GitHub (matebot-stl),,,,,,,,
+date,type,piece,heures_impression,filament_g,materiau,cout_cad,heures_travail,note,couleur,imprimante,day
+2026-11-03,purchase,Waveshare servo driver board,,,,16.99,,Amazon.ca - before tax,,,1
+2026-11-03,purchase,HERCULES 100 lb braided line,,,,16.99,,Amazon.ca - tendons,,,1
+2026-11-03,purchase,"PTFE tube 2x4 mm, 5 m",,,,16.49,,Amazon.ca - tendon sleeves,,,1
+2026-11-03,purchase,M2/M2.5 screw kit,,,,26.74,,Amazon.ca,,,1
+2026-11-03,purchase,QSJ M3/M4 heat-set inserts + bolts,,,,19.28,,Amazon.ca,,,1
+2026-11-03,purchase,2 mm dowel pin kit,,,,27.75,,Amazon.ca - finger pins,,,1
+2026-11-03,purchase,1 mm crimp sleeves,,,,12.99,,Amazon.ca - tendon anchors,,,1
+2026-11-03,print,Amazing Hand - base_plate (01) - FAILED,0.57,5.2,PETG,,,Stopped by me after 34 min (est. 15h29),grey,Anycubic Kobra S1,1
+2026-11-03,print,Amazing Hand - base_plate (01) - FAILED,0.60,4.3,PETG,,,Stopped by me after 36 min (est. 15h33),grey,Anycubic Kobra S1,1
+2026-11-03,milestone,"Hand design chosen: tendon-driven Amazing Hand (4 fingers, 8 STS3215 servos in the forearm)",,,,,,,,,1
+2026-11-04,purchase,Feetech STS3215 12V 30 kg·cm servos (6-pack),,,,180.99,,Amazon.ca RCmall - before tax,,,1
+2026-11-04,print,Amazing Hand - R-Wrist_Interface_plate (03),7.15,106,PETG,,,"est. 6h36, 524 layers, 0.2 mm",grey,Anycubic Kobra S1,1
+2026-11-04,print,Amazing Hand - L-Palm_Shell_plate (02),6.89,98.5,PETG,,,"est. 6h19, 515 layers, 0.2 mm",grey,Anycubic Kobra S1,1
+2026-11-04,print,Amazing Hand - base,11.48,207.5,PETG,,,"68.02 m filament (~3.05 g/m), est. 9h40, 0.2 mm",white,Sovol SV06 ACE,1
+2026-11-04,milestone,"Robot plan set: InMoov as a temporary base, custom shoulder and elbow, wheeled base first",,,,,,,,,1
+2026-11-04,milestone,Build tracker website launched,,,,,,,,,1
+2026-11-05,print,Amazing Hand - R-Hand_Plate_plate (01),4.67,66.3,PETG,,,"est. 4h28, 140 layers, 0.2 mm",grey,Anycubic Kobra S1,2
+2026-11-06,assembly,Part cleanup,,,,,1,About 1 h of work,,,3
+2026-11-07,assembly,Received the remaining parts; forearm and hand design session,,,,,1,About 1 h of work,,,3
+2026-11-07,purchase,Vernier caliper,,,,14,,Measuring tool,,,3
+2026-11-07,milestone,"Tendon hand assembly guide, servo spec check and explainer animation",,,,,,,,,3
+2026-11-07,milestone,All printable files published on GitHub (matebot-stl),,,,,,,,,3
